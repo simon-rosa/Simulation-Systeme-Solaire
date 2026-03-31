@@ -15,7 +15,7 @@ class Etoile:
         self.luminosite = Etoile.puissances_spectrales.get(type_spectral, 1.0)
 
     def __str__(self):
-        return f"Étoile {self.nom} | Type: {self.type_spectral} | Luminosité: {self.luminosite}"
+        return f"{self.nom} | Type: {self.type_spectral} | Luminosité: {self.luminosite}"
 
 
 class Planete:
